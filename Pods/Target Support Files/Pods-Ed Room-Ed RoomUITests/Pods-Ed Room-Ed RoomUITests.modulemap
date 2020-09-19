@@ -1,0 +1,6 @@
+framework module Pods_Ed_Room_Ed_RoomUITests {
+  umbrella header "Pods-Ed Room-Ed RoomUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
