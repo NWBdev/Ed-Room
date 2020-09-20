@@ -116,12 +116,11 @@
 		09361216251657870026A012 /* Ed Room */ = {
 			isa = PBXGroup;
 			children = (
-				09361217251657870026A012 /* AppDelegate.swift */,
-				09361219251657870026A012 /* SceneDelegate.swift */,
-				0936121B251657870026A012 /* ViewController.swift */,
-				0936121D251657870026A012 /* Main.storyboard */,
-				093612202516578B0026A012 /* Assets.xcassets */,
-				093612222516578B0026A012 /* LaunchScreen.storyboard */,
+				097DA85A2516E28100614777 /* Resources */,
+				097DA8592516E26F00614777 /* ViewModels */,
+				097DA8582516E26500614777 /* Models */,
+				097DA8572516E25E00614777 /* Views */,
+				097DA8562516E25100614777 /* Controllers */,
 				093612252516578B0026A012 /* Info.plist */,
 			);
 			path = "Ed Room";
@@ -145,6 +144,55 @@
 			path = "Ed RoomUITests";
 			sourceTree = "<group>";
 		};
+		097DA8562516E25100614777 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0936121B251657870026A012 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		097DA8572516E25E00614777 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				097DA85E2516E2DE00614777 /* Storyboards */,
+				093612202516578B0026A012 /* Assets.xcassets */,
+				093612222516578B0026A012 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		097DA8582516E26500614777 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		097DA8592516E26F00614777 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		097DA85A2516E28100614777 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				09361217251657870026A012 /* AppDelegate.swift */,
+				09361219251657870026A012 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		097DA85E2516E2DE00614777 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0936121D251657870026A012 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		5F52AF9A0C50FE901C185911 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,7 +203,6 @@
 				9D4F763BED11DB7E377658AB /* Pods-Ed RoomTests.debug.xcconfig */,
 				2852B521DF9670D8F758D0E5 /* Pods-Ed RoomTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
