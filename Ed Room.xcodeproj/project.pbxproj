@@ -9,12 +9,23 @@
 /* Begin PBXBuildFile section */
 		09361218251657870026A012 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09361217251657870026A012 /* AppDelegate.swift */; };
 		0936121A251657870026A012 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09361219251657870026A012 /* SceneDelegate.swift */; };
-		0936121C251657870026A012 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0936121B251657870026A012 /* ViewController.swift */; };
+		0936121C251657870026A012 /* ConversationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0936121B251657870026A012 /* ConversationVC.swift */; };
 		0936121F251657870026A012 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0936121D251657870026A012 /* Main.storyboard */; };
 		093612212516578B0026A012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 093612202516578B0026A012 /* Assets.xcassets */; };
 		093612242516578B0026A012 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 093612222516578B0026A012 /* LaunchScreen.storyboard */; };
 		0936122F2516578B0026A012 /* Ed_RoomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0936122E2516578B0026A012 /* Ed_RoomTests.swift */; };
 		0936123A2516578B0026A012 /* Ed_RoomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093612392516578B0026A012 /* Ed_RoomUITests.swift */; };
+		096613FB2516EB8D001E646C /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096613FA2516EB8D001E646C /* LoginVC.swift */; };
+		096614002516EBF6001E646C /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096613FF2516EBF6001E646C /* RegisterVC.swift */; };
+		096614052516EC43001E646C /* PhotoViewerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096614042516EC43001E646C /* PhotoViewerVC.swift */; };
+		0966140A2516EC9D001E646C /* SyllabusVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096614092516EC9D001E646C /* SyllabusVC.swift */; };
+		09D9F9DF2523C595009AD9DC /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09D9F9DA2523C595009AD9DC /* Quicksand-Medium.ttf */; };
+		09D9F9E02523C595009AD9DC /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09D9F9DB2523C595009AD9DC /* Quicksand-Regular.ttf */; };
+		09D9F9E12523C595009AD9DC /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09D9F9DC2523C595009AD9DC /* Quicksand-Light.ttf */; };
+		09D9F9E22523C595009AD9DC /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09D9F9DD2523C595009AD9DC /* Quicksand-Bold.ttf */; };
+		09D9F9E32523C595009AD9DC /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09D9F9DE2523C595009AD9DC /* Quicksand-SemiBold.ttf */; };
+		09D9F9E82523C5B2009AD9DC /* Quicksand-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09D9F9E72523C5B2009AD9DC /* Quicksand-VariableFont_wght.ttf */; };
+		09D9F9ED2523C5BB009AD9DC /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 09D9F9EC2523C5BB009AD9DC /* OFL.txt */; };
 		14A3FDBF8D2386223B849402 /* Pods_Ed_Room_Ed_RoomUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CDB10AAA6A0141ACBB633FD /* Pods_Ed_Room_Ed_RoomUITests.framework */; };
 		D7AF552357301A7548B3B2DC /* Pods_Ed_Room.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E55F8700ACF2EDEC6BB0AC /* Pods_Ed_Room.framework */; };
 		F169DB4BF4DFFA15AA843965 /* Pods_Ed_RoomTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2ECFA1387672F90098C6D09 /* Pods_Ed_RoomTests.framework */; };
@@ -41,7 +52,7 @@
 		09361214251657870026A012 /* Ed Room.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ed Room.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09361217251657870026A012 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09361219251657870026A012 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0936121B251657870026A012 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0936121B251657870026A012 /* ConversationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationVC.swift; sourceTree = "<group>"; };
 		0936121E251657870026A012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		093612202516578B0026A012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		093612232516578B0026A012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +63,17 @@
 		093612352516578B0026A012 /* Ed RoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ed RoomUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		093612392516578B0026A012 /* Ed_RoomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ed_RoomUITests.swift; sourceTree = "<group>"; };
 		0936123B2516578B0026A012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		096613FA2516EB8D001E646C /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		096613FF2516EBF6001E646C /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		096614042516EC43001E646C /* PhotoViewerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerVC.swift; sourceTree = "<group>"; };
+		096614092516EC9D001E646C /* SyllabusVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyllabusVC.swift; sourceTree = "<group>"; };
+		09D9F9DA2523C595009AD9DC /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-Medium.ttf"; path = "../../../../Downloads/Quicksand/static/Quicksand-Medium.ttf"; sourceTree = "<group>"; };
+		09D9F9DB2523C595009AD9DC /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-Regular.ttf"; path = "../../../../Downloads/Quicksand/static/Quicksand-Regular.ttf"; sourceTree = "<group>"; };
+		09D9F9DC2523C595009AD9DC /* Quicksand-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-Light.ttf"; path = "../../../../Downloads/Quicksand/static/Quicksand-Light.ttf"; sourceTree = "<group>"; };
+		09D9F9DD2523C595009AD9DC /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-Bold.ttf"; path = "../../../../Downloads/Quicksand/static/Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		09D9F9DE2523C595009AD9DC /* Quicksand-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-SemiBold.ttf"; path = "../../../../Downloads/Quicksand/static/Quicksand-SemiBold.ttf"; sourceTree = "<group>"; };
+		09D9F9E72523C5B2009AD9DC /* Quicksand-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-VariableFont_wght.ttf"; path = "../../../../Downloads/Quicksand/Quicksand-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		09D9F9EC2523C5BB009AD9DC /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = OFL.txt; path = ../../../../Downloads/Quicksand/OFL.txt; sourceTree = "<group>"; };
 		14470650FC46005320C6FF6B /* Pods-Ed Room.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ed Room.debug.xcconfig"; path = "Target Support Files/Pods-Ed Room/Pods-Ed Room.debug.xcconfig"; sourceTree = "<group>"; };
 		2852B521DF9670D8F758D0E5 /* Pods-Ed RoomTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ed RoomTests.release.xcconfig"; path = "Target Support Files/Pods-Ed RoomTests/Pods-Ed RoomTests.release.xcconfig"; sourceTree = "<group>"; };
 		3FAA55584C0EA817AD5A0B05 /* Pods-Ed Room-Ed RoomUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ed Room-Ed RoomUITests.release.xcconfig"; path = "Target Support Files/Pods-Ed Room-Ed RoomUITests/Pods-Ed Room-Ed RoomUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -147,7 +169,11 @@
 		097DA8562516E25100614777 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				0936121B251657870026A012 /* ViewController.swift */,
+				0936121B251657870026A012 /* ConversationVC.swift */,
+				096613FA2516EB8D001E646C /* LoginVC.swift */,
+				096613FF2516EBF6001E646C /* RegisterVC.swift */,
+				096614042516EC43001E646C /* PhotoViewerVC.swift */,
+				096614092516EC9D001E646C /* SyllabusVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -179,6 +205,13 @@
 		097DA85A2516E28100614777 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				09D9F9EC2523C5BB009AD9DC /* OFL.txt */,
+				09D9F9E72523C5B2009AD9DC /* Quicksand-VariableFont_wght.ttf */,
+				09D9F9DD2523C595009AD9DC /* Quicksand-Bold.ttf */,
+				09D9F9DC2523C595009AD9DC /* Quicksand-Light.ttf */,
+				09D9F9DA2523C595009AD9DC /* Quicksand-Medium.ttf */,
+				09D9F9DB2523C595009AD9DC /* Quicksand-Regular.ttf */,
+				09D9F9DE2523C595009AD9DC /* Quicksand-SemiBold.ttf */,
 				09361217251657870026A012 /* AppDelegate.swift */,
 				09361219251657870026A012 /* SceneDelegate.swift */,
 			);
@@ -323,9 +356,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09D9F9ED2523C5BB009AD9DC /* OFL.txt in Resources */,
+				09D9F9E22523C595009AD9DC /* Quicksand-Bold.ttf in Resources */,
+				09D9F9E32523C595009AD9DC /* Quicksand-SemiBold.ttf in Resources */,
 				093612242516578B0026A012 /* LaunchScreen.storyboard in Resources */,
+				09D9F9DF2523C595009AD9DC /* Quicksand-Medium.ttf in Resources */,
 				093612212516578B0026A012 /* Assets.xcassets in Resources */,
+				09D9F9E12523C595009AD9DC /* Quicksand-Light.ttf in Resources */,
 				0936121F251657870026A012 /* Main.storyboard in Resources */,
+				09D9F9E82523C5B2009AD9DC /* Quicksand-VariableFont_wght.ttf in Resources */,
+				09D9F9E02523C595009AD9DC /* Quicksand-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,9 +459,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0936121C251657870026A012 /* ViewController.swift in Sources */,
+				0936121C251657870026A012 /* ConversationVC.swift in Sources */,
+				0966140A2516EC9D001E646C /* SyllabusVC.swift in Sources */,
 				09361218251657870026A012 /* AppDelegate.swift in Sources */,
+				096613FB2516EB8D001E646C /* LoginVC.swift in Sources */,
+				096614052516EC43001E646C /* PhotoViewerVC.swift in Sources */,
 				0936121A251657870026A012 /* SceneDelegate.swift in Sources */,
+				096614002516EBF6001E646C /* RegisterVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,7 +649,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "appsideofthebox.Ed-Room";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -624,7 +668,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "appsideofthebox.Ed-Room";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
