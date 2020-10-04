@@ -26,6 +26,8 @@
 		09D9F9E32523C595009AD9DC /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09D9F9DE2523C595009AD9DC /* Quicksand-SemiBold.ttf */; };
 		09D9F9E82523C5B2009AD9DC /* Quicksand-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09D9F9E72523C5B2009AD9DC /* Quicksand-VariableFont_wght.ttf */; };
 		09D9F9ED2523C5BB009AD9DC /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 09D9F9EC2523C5BB009AD9DC /* OFL.txt */; };
+		09E1C05D252A4434006F22E0 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E1C05C252A4434006F22E0 /* SWRevealViewController.m */; };
+		09E1C06B252A4736006F22E0 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E1C06A252A4736006F22E0 /* MenuVC.swift */; };
 		14A3FDBF8D2386223B849402 /* Pods_Ed_Room_Ed_RoomUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CDB10AAA6A0141ACBB633FD /* Pods_Ed_Room_Ed_RoomUITests.framework */; };
 		D7AF552357301A7548B3B2DC /* Pods_Ed_Room.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9E55F8700ACF2EDEC6BB0AC /* Pods_Ed_Room.framework */; };
 		F169DB4BF4DFFA15AA843965 /* Pods_Ed_RoomTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2ECFA1387672F90098C6D09 /* Pods_Ed_RoomTests.framework */; };
@@ -74,6 +76,10 @@
 		09D9F9DE2523C595009AD9DC /* Quicksand-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-SemiBold.ttf"; path = "../../../../Downloads/Quicksand/static/Quicksand-SemiBold.ttf"; sourceTree = "<group>"; };
 		09D9F9E72523C5B2009AD9DC /* Quicksand-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-VariableFont_wght.ttf"; path = "../../../../Downloads/Quicksand/Quicksand-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		09D9F9EC2523C5BB009AD9DC /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = OFL.txt; path = ../../../../Downloads/Quicksand/OFL.txt; sourceTree = "<group>"; };
+		09E1C059252A4433006F22E0 /* Ed Room-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ed Room-Bridging-Header.h"; sourceTree = "<group>"; };
+		09E1C05B252A4434006F22E0 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../../Downloads/team-devslopes-app-smack-fe494f15fe51/Smack/Supporting Files/SWRevealViewController.h"; sourceTree = "<group>"; };
+		09E1C05C252A4434006F22E0 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../../Downloads/team-devslopes-app-smack-fe494f15fe51/Smack/Supporting Files/SWRevealViewController.m"; sourceTree = "<group>"; };
+		09E1C06A252A4736006F22E0 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		14470650FC46005320C6FF6B /* Pods-Ed Room.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ed Room.debug.xcconfig"; path = "Target Support Files/Pods-Ed Room/Pods-Ed Room.debug.xcconfig"; sourceTree = "<group>"; };
 		2852B521DF9670D8F758D0E5 /* Pods-Ed RoomTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ed RoomTests.release.xcconfig"; path = "Target Support Files/Pods-Ed RoomTests/Pods-Ed RoomTests.release.xcconfig"; sourceTree = "<group>"; };
 		3FAA55584C0EA817AD5A0B05 /* Pods-Ed Room-Ed RoomUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ed Room-Ed RoomUITests.release.xcconfig"; path = "Target Support Files/Pods-Ed Room-Ed RoomUITests/Pods-Ed Room-Ed RoomUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -138,6 +144,7 @@
 		09361216251657870026A012 /* Ed Room */ = {
 			isa = PBXGroup;
 			children = (
+				09E1C058252A440F006F22E0 /* Supporting Controllers */,
 				097DA85A2516E28100614777 /* Resources */,
 				097DA8592516E26F00614777 /* ViewModels */,
 				097DA8582516E26500614777 /* Models */,
@@ -174,6 +181,7 @@
 				096613FF2516EBF6001E646C /* RegisterVC.swift */,
 				096614042516EC43001E646C /* PhotoViewerVC.swift */,
 				096614092516EC9D001E646C /* SyllabusVC.swift */,
+				09E1C06A252A4736006F22E0 /* MenuVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -224,6 +232,16 @@
 				0936121D251657870026A012 /* Main.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		09E1C058252A440F006F22E0 /* Supporting Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				09E1C05B252A4434006F22E0 /* SWRevealViewController.h */,
+				09E1C05C252A4434006F22E0 /* SWRevealViewController.m */,
+				09E1C059252A4433006F22E0 /* Ed Room-Bridging-Header.h */,
+			);
+			path = "Supporting Controllers";
 			sourceTree = "<group>";
 		};
 		5F52AF9A0C50FE901C185911 /* Pods */ = {
@@ -315,11 +333,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1170;
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Appside of the Box";
 				TargetAttributes = {
 					09361213251657870026A012 = {
 						CreatedOnToolsVersion = 11.7;
+						LastSwiftMigration = 1200;
 					};
 					093612292516578B0026A012 = {
 						CreatedOnToolsVersion = 11.7;
@@ -462,7 +481,9 @@
 				0936121C251657870026A012 /* ConversationVC.swift in Sources */,
 				0966140A2516EC9D001E646C /* SyllabusVC.swift in Sources */,
 				09361218251657870026A012 /* AppDelegate.swift in Sources */,
+				09E1C05D252A4434006F22E0 /* SWRevealViewController.m in Sources */,
 				096613FB2516EB8D001E646C /* LoginVC.swift in Sources */,
+				09E1C06B252A4736006F22E0 /* MenuVC.swift in Sources */,
 				096614052516EC43001E646C /* PhotoViewerVC.swift in Sources */,
 				0936121A251657870026A012 /* SceneDelegate.swift in Sources */,
 				096614002516EBF6001E646C /* RegisterVC.swift in Sources */,
@@ -546,6 +567,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -606,6 +628,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -639,6 +662,7 @@
 			baseConfigurationReference = 14470650FC46005320C6FF6B /* Pods-Ed Room.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8T79JY7T2V;
 				INFOPLIST_FILE = "Ed Room/Info.plist";
@@ -648,6 +672,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "appsideofthebox.Ed-Room";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ed Room/Supporting Controllers/Ed Room-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -658,6 +684,7 @@
 			baseConfigurationReference = 6B7B16B31CCB272587E2FE70 /* Pods-Ed Room.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8T79JY7T2V;
 				INFOPLIST_FILE = "Ed Room/Info.plist";
@@ -667,6 +694,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "appsideofthebox.Ed-Room";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Ed Room/Supporting Controllers/Ed Room-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

@@ -34,18 +34,18 @@
 		237B88583D7BB18771A00939FF35C404 /* Pods-Ed Room-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ed Room-Info.plist"; sourceTree = "<group>"; };
 		2788D6E3C73C9BCB9F1C996767203DC2 /* Pods-Ed Room-Ed RoomUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Ed Room-Ed RoomUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2A68360B3A6D24096B7361FFE73566A9 /* Pods-Ed Room-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Ed Room-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2DF9F300D5734D4207E5BD8D0269A621 /* Pods_Ed_Room_Ed_RoomUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Ed_Room_Ed_RoomUITests.framework; path = "Pods-Ed Room-Ed RoomUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DF9F300D5734D4207E5BD8D0269A621 /* Pods_Ed_Room_Ed_RoomUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ed_Room_Ed_RoomUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3239ED8C28AA5AC74CF18E68ED56DA8C /* Pods-Ed RoomTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Ed RoomTests-umbrella.h"; sourceTree = "<group>"; };
 		361D05C97A682F5866B28129924AB938 /* Pods-Ed Room-Ed RoomUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ed Room-Ed RoomUITests-Info.plist"; sourceTree = "<group>"; };
 		3761C5B9FF6F4C2BED942E6013E0D908 /* Pods-Ed RoomTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Ed RoomTests.modulemap"; sourceTree = "<group>"; };
 		4408E4D37905FC9A97D44738652145BB /* Pods-Ed Room.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ed Room.release.xcconfig"; sourceTree = "<group>"; };
-		57E683B79B4B3B44742C62EED9F19641 /* Pods_Ed_Room.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Ed_Room.framework; path = "Pods-Ed Room.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57E683B79B4B3B44742C62EED9F19641 /* Pods_Ed_Room.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ed_Room.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B07979CF5335EE72BEEC259B235DB60 /* Pods-Ed Room-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ed Room-acknowledgements.plist"; sourceTree = "<group>"; };
-		79673B34EADC04C781FA395B9533F2C7 /* Pods_Ed_RoomTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Ed_RoomTests.framework; path = "Pods-Ed RoomTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79673B34EADC04C781FA395B9533F2C7 /* Pods_Ed_RoomTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ed_RoomTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83DA8609A019115C12A4C481EA24F731 /* Pods-Ed Room-Ed RoomUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ed Room-Ed RoomUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8E81CD3D5A421C3CE2E3A69B6CF27632 /* Pods-Ed RoomTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Ed RoomTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A8971F1641B7B89188124D8C335EA781 /* Pods-Ed RoomTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ed RoomTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B02EEF228BE94F15145EC38CBBA897CB /* Pods-Ed Room-Ed RoomUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Ed Room-Ed RoomUITests-umbrella.h"; sourceTree = "<group>"; };
 		B40E89F17E0C1879379624B388FA9A5E /* Pods-Ed Room-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Ed Room-umbrella.h"; sourceTree = "<group>"; };
@@ -274,7 +274,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1200;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 9.3";
@@ -421,6 +421,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -640,6 +641,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;

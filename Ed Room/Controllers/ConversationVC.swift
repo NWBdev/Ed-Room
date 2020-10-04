@@ -8,13 +8,30 @@
 
 import UIKit
 
+
 class ConversationVC: UIViewController {
 
+    //Outlets
+    @IBOutlet weak var menu_Btn: UIButton!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        menu_Btn.addTarget(self.revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:)), for: .touchUpInside)
+        //adds gestures for menu options
+        self.view.addGestureRecognizer((self.revealViewController()?.panGestureRecognizer())!)
+        self.view.addGestureRecognizer((self.revealViewController()?.tapGestureRecognizer())!)
+
     }
 
 
+    
+    //Actions
+    @IBAction func menu_BtnWasPressed(_ sender: Any) {
+    }
+    
 }
 
