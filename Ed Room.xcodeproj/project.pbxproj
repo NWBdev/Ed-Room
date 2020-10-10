@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		090613EF252CD3E200090881 /* AnnouncmentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090613EE252CD3E200090881 /* AnnouncmentsVC.swift */; };
+		0906143D253226E900090881 /* ContentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0906143C253226E900090881 /* ContentVC.swift */; };
+		0906144225322C5C00090881 /* RoomsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0906144125322C5C00090881 /* RoomsVC.swift */; };
 		09361218251657870026A012 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09361217251657870026A012 /* AppDelegate.swift */; };
 		0936121A251657870026A012 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09361219251657870026A012 /* SceneDelegate.swift */; };
 		0936121C251657870026A012 /* ConversationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0936121B251657870026A012 /* ConversationVC.swift */; };
@@ -51,6 +54,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		090613EE252CD3E200090881 /* AnnouncmentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncmentsVC.swift; sourceTree = "<group>"; };
+		0906143C253226E900090881 /* ContentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentVC.swift; sourceTree = "<group>"; };
+		0906144125322C5C00090881 /* RoomsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsVC.swift; sourceTree = "<group>"; };
 		09361214251657870026A012 /* Ed Room.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ed Room.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09361217251657870026A012 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09361219251657870026A012 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -182,6 +188,9 @@
 				096614042516EC43001E646C /* PhotoViewerVC.swift */,
 				096614092516EC9D001E646C /* SyllabusVC.swift */,
 				09E1C06A252A4736006F22E0 /* MenuVC.swift */,
+				090613EE252CD3E200090881 /* AnnouncmentsVC.swift */,
+				0906143C253226E900090881 /* ContentVC.swift */,
+				0906144125322C5C00090881 /* RoomsVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -478,9 +487,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0906143D253226E900090881 /* ContentVC.swift in Sources */,
+				0906144225322C5C00090881 /* RoomsVC.swift in Sources */,
 				0936121C251657870026A012 /* ConversationVC.swift in Sources */,
 				0966140A2516EC9D001E646C /* SyllabusVC.swift in Sources */,
 				09361218251657870026A012 /* AppDelegate.swift in Sources */,
+				090613EF252CD3E200090881 /* AnnouncmentsVC.swift in Sources */,
 				09E1C05D252A4434006F22E0 /* SWRevealViewController.m in Sources */,
 				096613FB2516EB8D001E646C /* LoginVC.swift in Sources */,
 				09E1C06B252A4736006F22E0 /* MenuVC.swift in Sources */,
