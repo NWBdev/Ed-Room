@@ -17,6 +17,13 @@ class AnnouncmentsVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        //Dark Mode
+        if #available(iOS 13.0, *) {
+               // Always adopt a light interface style.
+               overrideUserInterfaceStyle = .light
+           }
+        
+        
         // Do any additional setup after loading the view.
         menu_Btn.addTarget(self.revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:)), for: .touchUpInside)
         

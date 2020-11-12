@@ -20,6 +20,13 @@ class ConversationVC: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        //Dark Mode
+        if #available(iOS 13.0, *) {
+               // Always adopt a light interface style.
+               overrideUserInterfaceStyle = .light
+           }
+        
+        
         menu_Btn.addTarget(self.revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:)), for: .touchUpInside)
         
         //adds gestures for menu options
